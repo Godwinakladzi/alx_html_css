@@ -1,5 +1,32 @@
-body{
-border: 2px solid black;
-margin: 20px;
-padding: 20px;
+body, main{
+    display: flex;
 }
+
+body{
+    flex-direction: column;
+
+}
+main{
+    flex-direction: row;
+    flex: auto;
+    border: 1px solid grey;
+}
+
+article{
+    flex: 2;
+}
+aside{
+    flex: 1;
+    border-left: 1px solid grey;
+
+}
+
+footer{
+      border: 1px solid grey;
+}
+
+*{
+    margin: 10px;
+}
+
+dis
